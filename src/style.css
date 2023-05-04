@@ -20,19 +20,20 @@
     transition: 0.5s;
     color: #FFF;
     border: 1px solid;
-    border-color: #EA40A4;
+    border-color: #4e2d40;
     background-color: var(--primary);
-    border-radius: 0.5rem;
+    border-radius: 2rem;
     box-shadow: var(--personal-glow);
     cursor: pointer;
-    transition: 0.2s ease-in-out;
+    transition: 0.5s all ease;
 }
 body .svijetlo{
   background-color: var(--alter);
   transition: 0.5s all ease;
 }
 .button:hover{
-  padding: 1.2rem 1.7rem;
+	border-radius: 1rem;
+  background-color: var(--alter);
   transition: 0.5s all ease;
 }
 .hel{
